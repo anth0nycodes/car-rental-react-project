@@ -39,7 +39,7 @@ const Nav = () => {
             <button className="nav__btns__register disabled">Register</button>
           </div>
           <button className="nav__menu" onClick={() => setMenuOpen(true)}>
-            <FontAwesomeIcon icon={faBars} />
+            <FontAwesomeIcon icon={faBars} className="fa"/>
           </button>
         </div>
       </nav>

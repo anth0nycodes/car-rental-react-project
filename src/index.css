@@ -21,6 +21,14 @@ a {
   text-decoration: none;
 }
 
+.fa {
+  color: var(--black)
+}
+
+option {
+  color: var(--black);
+}
+
 button {
   cursor: pointer;
 }

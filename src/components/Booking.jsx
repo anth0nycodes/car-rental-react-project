@@ -42,7 +42,7 @@ const Booking = ({
             setBookingOpen(false);
           }}
         >
-          <FontAwesomeIcon icon={faTimes} />
+          <FontAwesomeIcon icon={faTimes} className="fa"/>
         </button>
         <h3 className="booking__title">Book a Car</h3>
         <form className="booking__form" onSubmit={handleSubmit}>
