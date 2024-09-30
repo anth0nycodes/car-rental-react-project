@@ -25,10 +25,6 @@ a {
   color: var(--black)
 }
 
-select {
-  color: var(--black);
-}
-
 button {
   cursor: pointer;
 }
@@ -1022,6 +1018,7 @@ MODELS PAGE
   border: 1px gray solid;
   border-radius: 4px;
   height: 48px;
+  color: var(--black);
 }
 
 .form__item__submit {
