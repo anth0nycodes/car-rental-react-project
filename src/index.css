@@ -25,6 +25,10 @@ a {
   color: var(--black)
 }
 
+select {
+  color: var(--black);
+}
+
 button {
   cursor: pointer;
 }
