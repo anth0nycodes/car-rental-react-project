@@ -12,7 +12,7 @@ const Choose = () => {
       <div className="container">
         <div className="row choose__row">
           <figure className="choose__img__wrapper">
-            <img src={ChooseCar} alt="" className="choose__img" />
+            <img src={ChooseCar} alt="image of multiple cars lined up" className="choose__img" />
           </figure>
           <div className="choose__content">
             <div className="choose__text">

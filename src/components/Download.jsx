@@ -27,7 +27,7 @@ const Download = () => {
               <a href="" className="download__text__link">
                 <img
                   src={AppStore}
-                  alt=""
+                  alt="image of a phone with a simulated car rental app on display"
                   className="download__text__link__img"
                 />
               </a>

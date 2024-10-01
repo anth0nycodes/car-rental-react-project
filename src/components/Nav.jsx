@@ -13,7 +13,7 @@ const Nav = () => {
       <nav>
         <div className="nav__container">
           <Link to="/" className="nav__img__wrapper">
-            <img src={NavLogo} alt="" className="nav__img" />
+            <img src={NavLogo} alt="brand logo of website" className="nav__img" />
           </Link>
           <div className="nav__links">
             <Link to="/" className="nav__link">

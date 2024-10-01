@@ -11,7 +11,7 @@ const Model = ({ model, setBookingOpen, setSelectedModel }) => {
     <div className="model">
       <img
         src={`https://car-rental-api.up.railway.app/${model.image}`}
-        alt=""
+        alt={`Image of the following rental car: ${model.make} ${model.model}`}
         className="model__img"
       />
       <div className="model__details model__details-1">

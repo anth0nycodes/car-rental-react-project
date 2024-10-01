@@ -11,7 +11,7 @@ const Testimonial = ({ image, name, location }) => {
       </p>
       <div className="testimonial__info">
         <figure className="testimonial__info__img__wrapper">
-          <img src={image} alt="" className="testimonial__info__img" />
+          <img src={image} alt="mock image of a customer" className="testimonial__info__img" />
         </figure>
         <div className="testimonial__info__profile">
           <h4 className="testimonial__info__name">{name}</h4>

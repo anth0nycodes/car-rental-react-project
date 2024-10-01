@@ -9,7 +9,7 @@ const Landing = () => {
   return (
     <header>
       <div className="container">
-        <img src={HeaderBg} alt="" className="header-bg" />
+        <img src={HeaderBg} alt="image of a red car" className="header-bg" />
         <div className="row header__row">
           <div className="header__text">
             <h2 className="header__text__subtitle">Plan your trip now</h2>
