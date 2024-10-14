@@ -23,6 +23,7 @@ const Models = () => {
 
   useEffect(() => {
     fetchVehicleModels();
+    window.scrollTo(0, 0);
   }, []);
 
   return (

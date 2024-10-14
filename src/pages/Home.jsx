@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Landing from "../components/Landing";
 import Features from "../components/Features";
 import Banner from "../components/Banner";
@@ -7,6 +7,9 @@ import Testimonials from "../components/Testimonials";
 import Download from "../components/Download";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Landing />
